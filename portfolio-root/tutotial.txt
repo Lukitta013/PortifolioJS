@@ -1,0 +1,29 @@
+Abra terminal na raiz do repo e rode:
+
+# rodar com root (ou outro usuário com permissão)
+mysql -u root -p < sql/setup.sql
+
+
+ou se quiser rodar só as tabelas (já criou DB e usuário):
+
+mysql -u Lukitta013 -p lukitta013_portfolio < sql/setup.sql
+
+Quando pedir senha, digita a senha do user (root ou Lukitta013 conforme o comando).
+
+Cenário A — seu setup.sql já contém CREATE DATABASE e USE
+
+Se o arquivo inclui as linhas para criar o database e já faz USE nome_do_db;, basta executar o arquivo como um usuário com permissão (normalmente root):
+
+# executa tudo (cria DB, user, tabelas e seeds) — pede senha do root
+mysql -u root -p < sql/setup.sql
+
+posso fazer no bash
+
+Para rodar:
+backend
+npm install
+npm start
+
+front
+npm install
+npm run dev

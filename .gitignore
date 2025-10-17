@@ -1,0 +1,48 @@
+# 🔹 Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+package-lock.json
+
+# 🔹 Environment variables
+.env
+.env.local
+.env.development
+.env.production
+.env.test
+
+# 🔹 Build outputs
+dist/
+build/
+.cache/
+.temp/
+out/
+.next/
+.vite/
+
+# 🔹 IDE / Sistema
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# 🔹 Logs
+*.log
+logs/
+*.pid
+*.seed
+*.pid.lock
+
+# 🔹 Tailwind / PostCSS cache
+.postcssrc.js
+.tailwindcss
+
+# 🔹 SQL dumps (caso tu gere backups locais)
+*.sql
+
+# 🔹 Outros
+coverage/
+cypress/videos/
+cypress/screenshots/
